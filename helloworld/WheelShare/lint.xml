@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ButtonStyle">
+        <ignore path="res/layout/activity_register.xml" />
+    </issue>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_confirm.xml" />
+        <ignore path="res/layout/request_list_row.xml" />
+    </issue>
+    <issue id="DuplicateIds">
+        <ignore path="res/layout/activity_confirm.xml" />
+        <ignore path="res/layout/activity_post.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_confirm.xml" />
+        <ignore path="res/layout/activity_post.xml" />
+        <ignore path="res/layout/activity_search.xml" />
+        <ignore path="res/layout/request_list_row.xml" />
+    </issue>
+    <issue id="NestedWeights">
+        <ignore path="res/layout/activity_confirm.xml" />
+        <ignore path="res/layout/activity_post.xml" />
+        <ignore path="res/layout/activity_search.xml" />
+    </issue>
+    <issue id="ObsoleteLayoutParam">
+        <ignore path="res/layout/activity_confirm.xml" />
+        <ignore path="res/layout/activity_post.xml" />
+        <ignore path="res/layout/activity_search.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res/layout/activity_post.xml" />
+        <ignore path="res/layout/activity_register.xml" />
+        <ignore path="res/layout/activity_search.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/request_list_row.xml" />
+    </issue>
+</lint>

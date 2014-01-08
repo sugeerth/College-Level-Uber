@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">पहिया शेयर</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="hello_world">हैलो दुनिया</string>
+    <string name="signIn">साइन इन करें</string>
+    <string name="registerLink">रजिस्टर</string>
+    <string name="ride">सवारी</string>
+    <string name="noResult">कोई परिणाम नहीं, आपकी क्वेरी खोज?</string>
+    <string name="result">परिणाम</string>
+    <string name="back">वापस</string>
+    <string name="sendRequestMsg">इस उपयोगकर्ता के लिए एक अनुरोध भेजें?</string>
+    <string name="confirm">पुष्टि</string>
+    <string name="enterdesc">विवरण दर्ज करें</string>
+    <string name="submit">प्रस्तुत करना</string>
+    <string name="bad">बुरा</string>
+    <string name="good">अच्छा</string>
+    <string name="pay">वेतन</string>
+    <string name="requesterror">अपने आप का अनुरोध नहीं कर सकते</string>
+    <string name="starttrip">यात्रा शुरू</string>
+    <string name="finishtrip">यात्रा समाप्त</string>
+    <string name="entercreditcard">  क्रेडिट कार्ड नंबर दर्ज करें  </string>
+    <string name="reject">अस्वीकार</string>
+
+    <color name="topBarColor">#000000</color>
+    <color name="topTextColor">#FFFFFF</color>
+    <color name="menuBttnColor">#575757</color>
+    <color name="highLightColor">#000000</color>
+    <color name="signInTextColor">#2d89b7</color>
+    <color name="driverColor">#0E426C</color>
+    <color name="riderColor">#546F8B</color>
+    <color name="requestReceivedColor">#6586A7</color>
+    <color name="textErrorColor">#FF0000</color>
+    <color name="sortOnClickColor">#FFFFFF</color>
+    <color name="GRAY">#D0D0D0</color>
+    <color name="LIGHTGRAY">#e0e0e0</color>
+    <color name="BLACK">#000000</color>
+
+    <string name="usernameField">यूज़र नेमयूज़र नेम&quot;</string>
+    <string name="TripInformation">यात्रा सूचना&quot;</string>
+    <string name="Description">विवरण&quot;</string>
+    <string name="request">अनुरोध&quot;</string>
+    <string name="home">घर&quot;</string>
+    <string name="detail">विस्तार&quot;</string>
+    <string name="accept">स्वीकार करना&quot;</string>
+    <string name="cancel">रद्द करें&quot;</string>
+    <string name="post">पद&quot;</string>
+    <string name="username">प्रयोक्ता नाम&quot;</string>
+    <string name="pass">पासवर्ड&quot;</string>
+    <string name="confirmpass">पासवर्ड&quot;</string>
+    <string name="firstname">प्रथम नाम&quot;</string>
+    <string name="lastname">आखिरी नाम&quot;</string>
+    <string name="credit">क्रेडिट कार्ड&quot;</string>
+    <string name="gender">लिंग&quot;</string>
+    <string name="male">नर&quot;</string>
+    <string name="female">महिला&quot;</string>
+    <string name="startlocation">स्थान शुरू&quot;</string>
+    <string name="destination">गंतव्य&quot;</string>
+    <string name="noofseats">सीटों की कोई&quot;</string>
+    <string name="available">उपलब्ध&quot;</string>
+    <string name="departdate">तारीख रवाना&quot;</string>
+    <string name="postingas">के रूप में पोस्टिंग&quot;</string>
+    <string name="driver">ड्राइवर&quot;</string>
+    <string name="passenger">यात्री&quot;</string>
+    <string name="number">संख्या&quot;</string>
+    <string name="date">तारीख&quot;</string>
+    <string name="fare">किराया&quot;</string>
+    <string name="rating">रेटिंग&quot;</string>
+    <string name="seats">सीटें&quot;</string>
+    <string name="selectdate">तिथि का चयन करें&quot;</string>
+    <string name="search">खोज&quot;</string>
+    <string name="settings">सेटिंग्स&quot;</string>
+
+</resources>

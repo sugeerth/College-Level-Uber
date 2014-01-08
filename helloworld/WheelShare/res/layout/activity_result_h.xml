@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- TOP BAR -->
+    <!-- DO NOT CHANGE ANYTHING -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="@color/topBarColor" >
+
+        <!-- TEXT FOR TOP BAR -->
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/topBarColor"
+            android:text="परिणाम"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/topTextColor" />
+    </RelativeLayout>
+
+    <!-- MIDDLE PANEL -->
+
+    <LinearLayout
+        android:id="@+id/homeMiddlePane"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/noResultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="कोई परिणाम नहीं मिला, पोस्ट?"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/noResultLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/startLocationEditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:ems="10"
+                android:hint="स्थान प्रारंभ" />
+
+            <EditText
+                android:id="@+id/destinationEditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/startLocationEditView"
+                android:ems="10"
+                android:hint="गंतव्य" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="सीटों की संख्या: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/SeatsEditView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/departeDateEditView"
+                    android:layout_toRightOf="@+id/textView1"
+                    android:ems="5"
+                    android:hint="उपलब्ध"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="तिथि रवाना:"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/selectDateBttn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="showDatePickerDialog"
+                    android:text="तिथि का चयन करें" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="के रूप में पोस्टिंग: "
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/driverRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ड्राइवर" />
+
+                    <RadioButton
+                        android:id="@+id/riderRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="यात्री" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/editText1"
+                    android:layout_alignBottom="@+id/editText1"
+                    android:layout_alignParentLeft="true"
+                    android:text="$"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <EditText
+                    android:id="@+id/fareEditView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/departeDateEditView"
+                    android:layout_toRightOf="@+id/textView1"
+                    android:ems="5"
+                    android:hint="किराया"
+                    android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sortLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/sortByDateBttn"
+                style="@style/menuButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".25"
+                android:background="#000000"
+                android:text="तारीख" />
+
+            <TextView
+                android:id="@+id/sortByFareBttn"
+                style="@style/menuButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_weight=".25"
+                android:background="#000000"
+                android:text="किराया" />
+
+            <TextView
+                android:id="@+id/sortByRatingBttn"
+                style="@style/menuButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight=".25"
+                android:background="#000000"
+                android:text="दर-निर्धारण" />
+
+            <TextView
+                android:id="@+id/sortBySeatsBttn"
+                style="@style/menuButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".25"
+                android:background="#000000"
+                android:text="सीटें" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/notificationList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/backBttn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="वापस" />
+
+            <Button
+                android:id="@+id/postBttn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="डाक" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

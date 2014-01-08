@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/signInView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.21"
+        android:gravity="center"
+        android:text="@string/signIn"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<!--This linearLayout is used for username field and password name field -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="0.2">
+
+        <EditText
+            android:id="@+id/userNameField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/passWordField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/userNameField"
+            android:layout_below="@+id/userNameField"
+            android:ems="10"
+            android:inputType="textPassword" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/signInBttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passWordField"
+            android:layout_centerHorizontal="true"
+            android:text="@string/signIn" />
+
+        
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/registerLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registerLink"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

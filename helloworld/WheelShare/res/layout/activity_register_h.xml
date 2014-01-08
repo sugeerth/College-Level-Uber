@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- TOP BAR -->
+    <!-- DO NOT CHANGE ANYTHING -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="@color/topBarColor" >
+
+        <!-- TEXT FOR TOP BAR -->
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/topBarColor"
+            android:text="रजिस्टर"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/topTextColor" />
+    </RelativeLayout>
+
+    <!-- MIDDLE PANEL -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/userNameRegText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="प्रयोक्ता नाम *"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/userNameRegField"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/passWordRegText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="पासवर्ड *"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/passWordRegField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/cpassWordRegText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="पासवर्ड की पुष्टि *"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/cpassWordRegField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/firstNameRegText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="प्रथम नाम *"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/firstNameRegField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/lastNameRegText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="अंतिम नाम *"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/lastNameRegField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/creditCardRegText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credit Card Number *"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/creditCardNumRegField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/genderRegText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="लिंग: "
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/maleRegRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="नर" />
+
+                    <RadioButton
+                        android:id="@+id/femaleRegRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="महिला" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/backBttn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="वापस" />
+
+                <Button
+                    android:id="@+id/regBttn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="रजिस्टर" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!-- MIDDLE PANEL END -->
+
+
+    <!-- MENU BAR -->
+    <!-- DO NOT CHANGE ANYTHING -->
+
+</LinearLayout>

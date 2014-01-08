@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- TOP BAR -->
+    <!-- DO NOT CHANGE ANYTHING -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="@color/topBarColor" >
+
+        <!-- TEXT FOR TOP BAR -->
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/topBarColor"
+            android:text="Search"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/topTextColor" />
+    </RelativeLayout>
+
+    <!-- MIDDLE PANEL -->
+    <!--
+         ADD YOUR OWN STUFF BUT KEEP 
+    
+    	android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight=".8"
+        
+        FOR OUT MOST LAYOUT -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/startLocationEditView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="Start Location" />
+
+        <EditText
+            android:id="@+id/destinationEditView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/startLocationEditView"
+            android:ems="10"
+            android:hint="Destination" />
+
+        <EditText
+            android:id="@+id/departeDateEditView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/destinationEditView"
+            android:ems="10"
+            android:hint="Departure Date" />
+
+        <CheckBox
+            android:id="@+id/riderCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Driver" />
+
+        <CheckBox
+            android:id="@+id/driverCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/riderCheckBox"
+            android:layout_alignBottom="@+id/riderCheckBox"
+            android:layout_centerHorizontal="true"
+            android:text="Passenger" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/riderCheckBox"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="Looking for a driver or passenger?"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="31dp"
+            android:text="Search" />
+
+    </RelativeLayout>
+
+    <!-- MIDDLE PANEL END -->
+
+
+    <!-- MENU BAR -->
+    <!-- DO NOT CHANGE ANYTHING -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="#7a7a7c"
+        android:orientation="horizontal" >
+
+        <Button
+            style="@style/menuButtonStyle"
+            android:id="@+id/homeMenu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:text="Home" />
+
+        <Button
+            style="@style/menuButtonStyle"
+            android:id="@+id/postMenu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:text="Post" />
+
+        <Button
+            style="@style/menuButtonStyle"
+            android:id="@+id/searchMenu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:text="Search" />
+
+        <Button
+            style="@style/menuButtonStyle"
+            android:id="@+id/settingMenu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:text="Setting" />
+    </LinearLayout>
+
+</LinearLayout>

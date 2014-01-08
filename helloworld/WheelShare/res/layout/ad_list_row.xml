@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notificationListView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/profile_picture"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/default_male" >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/userTypeAndFareAdInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Driver Requested: $10"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/locationAdInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Davis -> San Francisco"
+                android:textSize="20sp"
+                android:textStyle="bold" 
+                android:layout_marginTop="-3dp"/>
+
+            <TextView
+                android:id="@+id/dateAdInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Depart: 08/06/2013"
+                android:textSize="15sp" 
+                android:layout_marginTop="-3dp"/>
+
+            <TextView
+                android:id="@+id/posterAdInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sent to: Triet N."
+                android:textSize="10sp"
+                android:layout_marginTop="-3dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

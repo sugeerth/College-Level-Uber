@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WheelShare</string>
+    <string name="hello_world">WheelShare</string>
+    <string name="action_settings">Setting</string>
+    <string name="settings">Setting</string>
+    <string name="number">number</string>
+    <string name="noResult">No result, search your query?</string>
+    <string name="signIn">Sign In</string>
+    <string name="registerLink">Register</string>
+    <string name="ride">Ride</string>
+    <string name="result">Result</string>
+    <string name="back">Back</string>
+    <string name="reject">Reject</string>
+    <string name="sendRequestMsg">Send message</string>
+    <string name="confirm">Confirm</string>
+    <string name="enterdesc">Enter description:</string>
+    <string name="submit">Submit</string>
+    <string name="bad">Bad</string>
+    <string name="good">Good</string>
+    <string name="pay">Pay</string>
+    <string name="requesterror">Cannot request yourself</string>
+    <string name="starttrip">Start Trip</string>
+    <string name="finishtrip">Finish Trip</string>
+    <string name="entercreditcard">  Enter credit card number:  </string>
+    <color name="topBarColor">#000000</color>
+    <color name="topTextColor">#FFFFFF</color>
+    <color name="menuBttnColor">#575757</color>
+    <color name="highLightColor">#000000</color>
+    <color name="signInTextColor">#2d89b7</color>
+    <color name="driverColor">#0E426C</color>
+    <color name="riderColor">#546F8B</color>
+    <color name="requestReceivedColor">#6586A7</color>
+    <color name="textErrorColor">#FF0000</color>
+    <color name="sortOnClickColor">#FFFFFF</color>
+    <color name="GRAY">#D0D0D0</color>
+    <color name="LIGHTGRAY">#e0e0e0</color>
+    <color name="BLACK">#000000</color>
+
+    <string name="usernameField">Username</string>
+    <string name="TripInformation">TripInformation</string>
+    <string name="Description">Description</string>
+    <string name="request">Request</string>
+    <string name="home">Home</string>
+    <string name="detail">Detail</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="post">Post</string>
+    <string name="username">Username</string>
+    <string name="pass">Password</string>
+    <string name="confirmpass">Confirm Password</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="credit">Credit Card</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="startlocation">Start Location</string>
+    <string name="destination">Destination</string>
+    <string name="noofseats">Number of seats</string>
+    <string name="available">available</string>
+    <string name="departdate">Departure Date</string>
+    <string name="postingas">Posting as</string>
+    <string name="driver">Driver</string>
+    <string name="passenger">Passenger</string>
+    <string name="date">Date</string>
+    <string name="fare">Fare</string>
+    <string name="rating">Rating</string>
+    <string name="seats">Seats</string>
+    <string name="selectdate">Select Date</string>
+    <string name="search">Search</string>
+
+</resources>

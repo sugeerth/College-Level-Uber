@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- TOP BAR -->
+    <!-- DO NOT CHANGE ANYTHING -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="@color/topBarColor" >
+
+        <!-- TEXT FOR TOP BAR -->
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/topBarColor"
+            android:text="Home"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/topTextColor" />
+    </RelativeLayout>
+
+    <!-- MIDDLE PANEL -->
+    <!--
+       
+    
+    	android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight=".8"
+        
+        FOR OUT MOST LAYOUT
+    -->
+
+    <RelativeLayout
+        android:id="@+id/homeMiddlePane"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8" >
+
+        <ListView
+            android:id="@+id/someList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/names"
+            android:orientation="vertical" >
+        </ListView>
+    </RelativeLayout>
+
+    <!-- MIDDLE PANEL END -->
+
+
+    <!-- MENU BAR -->
+    <!-- DO NOT CHANGE ANYTHING -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@color/topBarColor" >
+
+          <TextView
+              android:id="@+id/homeBttn"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:background="@color/menuBttnColor" 
+              android:gravity="center"
+              android:textColor="#FFFFFF"
+              android:text="      Home     "
+              android:clickable="true"
+              />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:background="@color/menuBttnColor" 
+              android:gravity="center"
+              android:textColor="#FFFFFF"
+              android:text="|"
+              />
+          <TextView
+              android:id="@+id/postBttn"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:background="@color/menuBttnColor" 
+              android:gravity="center"
+              android:textColor="#FFFFFF"
+              android:text="       Post       "
+              />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:background="@color/menuBttnColor" 
+              android:gravity="center"
+              android:textColor="#FFFFFF"
+              android:text="|"
+              />
+          <TextView
+              android:id="@+id/searchBttn"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:background="@color/menuBttnColor" 
+              android:gravity="center"
+              android:textColor="#FFFFFF"
+              android:text="      Search     "
+              />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:background="@color/menuBttnColor" 
+              android:gravity="center"
+              android:textColor="#FFFFFF"
+              android:text="|"
+              />
+          <TextView
+              android:id="@+id/settingBttn"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:background="@color/menuBttnColor" 
+              android:gravity="center"
+              android:textColor="#FFFFFF"
+              android:text="      Setting     "
+              />
+	</LinearLayout>
+</LinearLayout>

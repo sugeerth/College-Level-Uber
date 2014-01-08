@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- TOP BAR -->
+    <!-- DO NOT CHANGE ANYTHING -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="@color/topBarColor" >
+
+        <!-- TEXT FOR TOP BAR -->
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/topBarColor"
+            android:text="घर"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/topTextColor" />
+    </RelativeLayout>
+
+    <!-- MIDDLE PANEL -->
+
+    <RelativeLayout
+        android:id="@+id/homeMiddlePane"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8" >
+
+        <ListView
+            android:id="@+id/notificationList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+        </ListView>
+    </RelativeLayout>
+
+    <!-- MIDDLE PANEL END -->
+
+
+    <!-- MENU BAR -->
+    <!-- DO NOT CHANGE ANYTHING -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="#000000"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/homeMenu"
+            style="@style/menuButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_marginTop="-5dp"
+            android:layout_weight=".33"
+            android:text="घर" />
+
+        <Button
+            android:id="@+id/searchMenu"
+            style="@style/menuButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_marginRight="-7dp"
+            android:layout_marginTop="-5dp"
+            android:layout_weight=".33"
+            android:text="खोज" />
+
+        <Button
+            android:id="@+id/settingMenu"
+            style="@style/menuButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-7dp"
+            android:layout_marginRight="-7dp"
+            android:layout_marginTop="-5dp"
+            android:layout_weight=".33"
+            android:text="स्थापना" />
+    </LinearLayout>
+
+</LinearLayout>

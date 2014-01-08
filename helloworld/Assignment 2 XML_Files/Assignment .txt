@@ -1,0 +1,46 @@
+Team HelloWorld
+
+----------------------------------------------------------------------
+
+			README				
+
+
+---------------------------------------------------------------------	
+
+TEAM NAME :   HelloWorld
+
+
+TEAM MEMBERS: Sugeerth Murugesan
+	      Triet Nguyen
+	      Deneb Chen
+	      Duc Hoang
+
+
+COURSE NAME:  ECS 160 (INTRO TO SOFTWARE ENGINEERING)
+ Layout .xml files - due by May 3 
+     Create your xml files in your android project based on the required usecases.
+     You can also make a hand drawn storyboard.
+
+
+	We have uploaded the GUI Pages for the pages: 
+
+Images -
+We have also turned in the pictures of the Story Board = Story_Board_Images.
+
+Screenshots of activities.
+	Folder Screenshots
+	-activity_home.png
+	-activity_post.png
+	-activity_search.png
+	-activity_setting.png
+
+XML Associated with the Screenshot.
+	-activity_home.xml
+	-activity_post.xml
+	-activity_search.xml
+	-activity_setting.xml
+
+Action bar
+	-main_menu.xml
+	-string.xml
+	

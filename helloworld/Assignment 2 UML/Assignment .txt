@@ -1,0 +1,28 @@
+Team HelloWorld
+
+----------------------------------------------------------------------
+
+			README				
+
+
+---------------------------------------------------------------------	
+
+TEAM NAME :   HelloWorld
+
+
+TEAM MEMBERS: Sugeerth Murugesan
+	      Triet Nguyen
+	      Deneb Chen
+	      Duc Hoang
+
+
+COURSE NAME:  ECS 160 (INTRO TO SOFTWARE ENGINEERING)
+ Layout UML Diagrams- Due by may 5 
+    
+
+The Class Diagram is UML.pdf.
+
+We have also turned in the .XML files, WE have modified our GUIs and XML Files.
+
+
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- TOP BAR -->
+    <!-- DO NOT CHANGE ANYTHING -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="@color/topBarColor" >
+
+        <!-- TEXT FOR TOP BAR -->
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/topBarColor"
+            android:text="Home"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/topTextColor" />
+    </RelativeLayout>
+
+    <!-- MIDDLE PANEL -->
+    <!--
+         ADD YOUR OWN STUFF BUT KEEP 
+    
+    	android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight=".8"
+        
+        FOR OUT MOST LAYOUT
+    -->
+
+    <RelativeLayout
+        android:id="@+id/homeMiddlePane"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8" >
+
+        <ListView
+            android:id="@+id/someList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/names"
+            android:orientation="vertical" >
+        </ListView>
+    </RelativeLayout>
+
+    <!-- MIDDLE PANEL END -->
+
+
+    <!-- MENU BAR -->
+    <!-- DO NOT CHANGE ANYTHING -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="#7a7a7c"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/homeMenu"
+            style="@style/menuButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/postMenu"
+            style="@style/menuButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:text="Post" />
+
+        <Button
+            android:id="@+id/searchMenu"
+            style="@style/menuButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:text="Search" />
+
+        <Button
+            android:id="@+id/settingMenu"
+            style="@style/menuButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:text="Setting" />
+    </LinearLayout>
+
+</LinearLayout>

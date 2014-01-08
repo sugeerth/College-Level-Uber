@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wheel Share</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="signIn">Sign In</string>
+    <string name="registerLink">Register</string>
+
+    <color name="topBarColor">#000000</color>
+    <color name="topTextColor">#FFFFFF</color>
+    <color name="menuBttnColor">#575757</color>
+    <color name="highLightColor">#000000</color>
+    <color name="signInTextColor">#2d89b7</color>
+    <color name="driverColor">#0E426C</color>
+    <color name="riderColor">#546F8B</color>
+    <color name="requestReceivedColor">#6586A7</color>
+    <color name="textErrorColor">#FF0000</color>
+    <color name="sortOnClickColor">#FFFFFF</color>
+    <color name="GRAY">#D0D0D0</color>
+    <color name="LIGHTGRAY">#e0e0e0</color>
+    <color name="BLACK">#000000</color>
+
+</resources>
