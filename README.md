@@ -1,29 +1,39 @@
- *******************************************************************************************
-Introduction
- *******************************************************************************************
-The android application application simulates lyft or Uber. Although we started and finished this way earlier than they did :). 
+# HelloWorld #
+
+Our Idea of uber before it even lauched. Although we started and finished this way earlier than they did :). 
 We help people save money by encouraging carpooling. 
+
+[![ScreenShot](http://s32.postimg.org/u05igk59h/Login_SS.png)]()
+
+
+
 
 We have uploaded the GUI Pages for the pages: 
 
 Sign In- The Sign in page Consisits of the Username and Password option with the Sign in Option/Forgot-Id password. 
 Home- Consists of the Information About the Rider/Driver Posts,Requests,Confirmation it can be compared to a type of a Personal Inbox for every user. 
+
 Profile- This a credibility option which would make a the User more legit and also a page to Accept and send requests.
+
 
 Menu Bar-(A Common Menu for all the pages it would be inherited By all the pages)
 
-### Team members
+[![ScreenShot](http://s32.postimg.org/6keejq6qt/Register_SS.png)]()
+
+[![ScreenShot](http://s32.postimg.org/84f54dpr9/Home_SS.png)]()
+
+# Team members #
 
 Triet Nguyen
-Sugeerth
+
+Sugeerth Murugesan
+
 Deneb Chen
+
 Duc Hoang
 
-======
 
-
-
-### LICENSE
+# LICENSE #
 
 Copyright (C) 2011-2017 Sugeerth Murugesan 
 
